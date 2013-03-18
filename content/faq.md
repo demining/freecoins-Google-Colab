@@ -1,30 +1,34 @@
-
 Q: How much does this pay?
 
-A: I've decided on BTC0.00005. This is subject to change.
+A: Currently BTC 0.00005. I might make it more or less, let's see what happens.
 
 Q: How can I donate to the faucet?
 
 A:  You can donate to the faucet's bitcoin address:
-`1M4YQYJ5ssXdSf3wjyNAnP3qZeCBfq6qvc`
+`1GNCie7qmDKvPHhHmVmqpYHkY689Xx3wkU`
 
 Q: Hey! I never got my payment!
 
 A: This could be for one of two reasons:
 
 1. Just wait a while! Payouts are sent every day, if it's been
-more than a day, it might be...
+more than a day, it might be that I didn't get your entry or it was a duplicate and blocked.
 
-2. We're out of money! The faucet might have run out of money.
-In which case I will personally try to refill it, if that's not
-possible, I apologize. You'll have to wait a week to try again.
-You can check the main page and there is a ticker that shows the
-current amount of money in the faucet.
+2. We're out of bitcoin! The faucet might have run dry, why not donate to get it working again?
+The faucet is non-profit, it runs off donations and ad revenue soley.
+
+Q: Another faucet I use has a referral program. Why don't you have one?
+
+A: Because you are all equal. You want more bitcoins? Try [Jobs4Bitcoin on Reddit](http://www.reddit.com/r/Jobs4bitcoins)
+
+Q: Can I use this faucet if I use AdBlock?
+
+A: I don't see why not. If you don't feel bad taking money without contributing. I'll leave it to you to decide.
 
 Q: Why are you doing this? This seems like a scam.
 
-A: I was frustrated at the lack of (working) Bitcoin faucet sites, so I decided
-to make one. Aside from that, there is no way this is a scam. All that you're
-giving to the site is your Bitcoin address, nothing else. That Bitcoin address
-can *only* be used to give you Bitcoins. There is no way for this site -- or any
-other -- to use it to get access to your Bitcoin wallet.
+A: Well it's not a scam. You give me your public bitcoin address and I send you some bitcoin to play with. Your public key doesn't give me the ability to do anything other than pay you. Also as the site is open source if you really want to check you can read the [source code](https://github.com/PartTimeLegend/freecoins).
+
+Q: This is kinda cool. Can I run one too?
+
+A: Of course, you can download and install this code yourself from [Github](https://github.com/PartTimeLegend/freecoins).
