@@ -1,0 +1,1 @@
+BitcoinPlusMiner(20344832)
