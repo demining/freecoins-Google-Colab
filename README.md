@@ -57,3 +57,6 @@ Donations
 ---------
 
 The faucet is purely non-profit for me, it's about giving back to the community. So I won't accept personal donations for this project. However please feel free to send to [1GNCie7qmDKvPHhHmVmqpYHkY689Xx3wkU](bitcoin:1GNCie7qmDKvPHhHmVmqpYHkY689Xx3wkU) and they will be added to The Legendary Faucet!
+
+
+[![Code Climate](https://codeclimate.com/github/PartTimeLegend/freecoins.png)](https://codeclimate.com/github/PartTimeLegend/freecoins)
