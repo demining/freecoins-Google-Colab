@@ -26,8 +26,8 @@ post '/send' do
   if !same_address.nil?
     same_address_difference = Time.diff(same_address.timestamp, current_date)
     if same_address_difference[:week] < 1
-      return {  :success => false,
-        :error   => "bad_addr" }.to_json
+      return {:success => false,
+              :error => "bad_addr"}.to_json
     end
   elsif !same_ip.nil?
     same_ip_difference = Time.diff(same_ip.timestamp, current_date)
