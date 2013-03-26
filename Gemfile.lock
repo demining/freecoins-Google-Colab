@@ -89,7 +89,7 @@ GEM
       tilt (1.3.6)
     stringex (1.5.1)
     syntax (1.0.0)
-    tilt (1.3.3)
+    tilt (1.3.6)
     time_diff (0.3.0)
       activesupport
       i18n
