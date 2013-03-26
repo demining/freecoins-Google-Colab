@@ -166,3 +166,5 @@ pip-log.txt
 *.swp
 config.json
 Rakefile
+.idea
+Gemfile.lock
