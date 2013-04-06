@@ -1,0 +1,130 @@
+<!doctype html>
+<!-- The Time Machine GitHub pages theme was designed and developed by Jon Rohan, on Feb 7, 2012. -->
+<!-- Follow him for fun. http://twitter.com/jonrohan. Tail his code on http://github.com/jonrohan -->
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+  <link rel="stylesheet" href="stylesheets/stylesheet.css" media="screen"/>
+  <link rel="stylesheet" href="stylesheets/pygment_trac.css"/>
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+  <script type="text/javascript" src="javascripts/script.js"></script>
+
+  <title>Legendary Faucet</title>
+  <meta name="description" content="The source code for the Legendary Faucet Bitcoin Faucet">
+
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+
+</head>
+
+<body>
+
+  <div class="wrapper">
+    <header>
+      <h1 class="title">Legendary Faucet</h1>
+    </header>
+    <div id="container">
+      <p class="tagline">The source code for the Legendary Faucet Bitcoin Faucet</p>
+      <div id="main" role="main">
+        <div class="download-bar">
+        <div class="inner">
+          <a href="https://github.com/PartTimeLegend/freecoins/tarball/master" class="download-button tar"><span>Download</span></a>
+          <a href="https://github.com/PartTimeLegend/freecoins/zipball/master" class="download-button zip"><span>Download</span></a>
+          <a href="https://github.com/PartTimeLegend/freecoins" class="code">View Legendary Faucet on GitHub</a>
+        </div>
+        <span class="blc"></span><span class="trc"></span>
+        </div>
+        <article class="markdown-body">
+          <h1>ANNOUNCEMENT</h1>
+
+<p>Unfortunately my computer has died and due to a lack of continous employment over the recent months I am currently unable to purchase a replacement machine at this point.</p>
+
+<p>I will therefore no longer be developing this software until I am able to purchase a replacement.</p>
+
+<p>It is always a little rude to ask for donations, but as I am developing this software free of charge for everyone to use. I will therefore be accepting donations towards the purchase of a new machine.</p>
+
+<p>BTC: <a>1CdzakhzxS5QMfe9bM6KZapNWbFtfNKimx</a> | TRC: <a>1HgyXPsAhyD6wCGqp5Ntgq8549XkWTauvG</a> | LTC: <a>LRqjHkL5wFt9JxE5vmHGcxNCbqQMvyEJY5</a></p>
+
+<p>Okay, I'll also take <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&amp;hosted_button_id=G2M23XDAB8HBA">PayPal</a></p>
+
+<hr><h1>Your Own Bitcoin Faucet</h1>
+
+<p>This is the code for the site <a href="http://legendaryfaucet.herokuapp.com">Legendary Faucet</a>, a
+simple bitcoin faucet that pays out 0.00005BTC or more if I'm in a good mood.</p>
+
+<p>If you want to use this as your own faucet, check out <code>config.example.json</code> for
+some values you'll need to change. Be sure to change things like the footer file
+(<code>views/_footer.haml</code>) and the ad files, either deleting them (and the
+references to them) or changing them to reflect your own ads.</p>
+
+<p>Attribution to this source would be greatly appreciated if you use this as your own faucet. It's a fork of the code from <a href="https://github.com/mdszy/freecoins">mdszy</a> so all the real credit should go to them.</p>
+
+<hr><h2>How To Setup for Heroku</h2>
+
+<p>First sign up for <a href="http://www.heroku.com">Heroku</a>.
+Download and install <a href="https://toolbelt.heroku.com/">Heroku Toolbelt</a>
+Launch Heroku toolbelt either in the directory you have your code in, or navigate to it.
+Now let's run the commands:</p>
+
+<p><code>heroku login</code>
+You will be asked for your email. Enter this.
+You will then be asked for your password. Enter this.</p>
+
+<p>Excellent. Now let's play a game of git.</p>
+
+<p><code>git init</code>
+<code>git add .</code>
+<code>git commit -m "foo"</code></p>
+
+<p>Now create your app
+<code>heroku create</code></p>
+
+<p>Let's push!
+<code>git push heroku master</code></p>
+
+<p>Assuming everything went fine, now you need your database</p>
+
+<p><code>heroku addons:add cleardb:ignite</code></p>
+
+<p>If you get a message about verifying your account go to <a href="http://www.heroku.com/verify">the verify page</a> and enter credit card details. So long as you don't use paid services you will <strong>NOT</strong> be charged.</p>
+
+<p>Now get your database location
+<code>heroku config:get CLEARDB_DATABASE_URL</code>
+You will see a bit long string that starts mysql: copy this</p>
+
+<p><code>heroku config:add DATABASE_URL=''</code>
+Obviously set the contents of the string to what you got from above. <strong>ALL OF IT!</strong></p>
+
+<p>If you want automatic payouts, set up a cron job somewhere that runs</p>
+
+<h2><code>curl -F secret=yoursecret http://yourapp.herokuapp.com/payout</code></h2>
+
+<h2>Donations</h2>
+
+<p>The faucet is purely non-profit for me, it's about giving back to the community. So I won't accept personal donations for this project. However please feel free to send to <a>1GNCie7qmDKvPHhHmVmqpYHkY689Xx3wkU</a> and they will be added to The Legendary Faucet!</p>
+
+<p><a href="https://codeclimate.com/github/PartTimeLegend/freecoins"><img src="https://codeclimate.com/github/PartTimeLegend/freecoins.png" alt="Code Climate"></a> <a href="https://travis-ci.org/PartTimeLegend/freecoins"><img src="https://travis-ci.org/PartTimeLegend/freecoins.png?branch=master" alt="Build Status"></a> <a href="https://gemnasium.com/PartTimeLegend/freecoins"><img src="https://gemnasium.com/PartTimeLegend/freecoins.png" alt="Dependency Status"></a></p>
+        </article>
+      </div>
+    </div>
+    <footer>
+      <div class="owner">
+      <p><a href="https://github.com/PartTimeLegend" class="avatar"><img src="https://secure.gravatar.com/avatar/ac0a9664a43b828af7ce9569380c8bdb?s=30&amp;d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png" width="48" height="48"/></a> <a href="https://github.com/PartTimeLegend">PartTimeLegend</a> maintains <a href="https://github.com/PartTimeLegend/freecoins">Legendary Faucet</a></p>
+
+
+      </div>
+      <div class="creds">
+        <small>This page generated using <a href="https://pages.github.com/">GitHub Pages</a><br/>theme by <a href="http://twitter.com/jonrohan/">Jon Rohan</a></small>
+      </div>
+    </footer>
+  </div>
+  <div class="current-section">
+    <a href="#top">Scroll to top</a>
+    <a href="https://github.com/PartTimeLegend/freecoins/tarball/master" class="tar">tar</a><a href="https://github.com/PartTimeLegend/freecoins/zipball/master" class="zip">zip</a><a href="" class="code">source code</a>
+    <p class="name"></p>
+  </div>
+
+  
+</body>
+</html>
