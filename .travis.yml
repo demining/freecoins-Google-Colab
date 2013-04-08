@@ -3,8 +3,5 @@ rvm:
   - 1.9.3
   - 2.0.0-p0
 notifications:
-  irc: "rowling.freenode.net#parttimelegend"
-  email:
-    on_success: never
-    on_failure: never
+  irc: "irc.freenode.org#parttimelegend"
 script: bundle install
