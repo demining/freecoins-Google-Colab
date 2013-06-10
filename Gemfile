@@ -9,3 +9,4 @@ gem 'dm-mysql-adapter', '1.2.0'
 gem 'nestful', '1.0.4'
 gem 'letters', '0.3.1'
 gem 'coveralls', require: false
+gem 'gemnasium'
