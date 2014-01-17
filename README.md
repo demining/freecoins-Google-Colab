@@ -61,4 +61,6 @@ The faucet is purely non-profit for me, it's about giving back to the community.
 
 [![Code Climate](https://codeclimate.com/github/PartTimeLegend/freecoins.png)](https://codeclimate.com/github/PartTimeLegend/freecoins) [![Build Status](https://travis-ci.org/PartTimeLegend/freecoins.png?branch=master)](https://travis-ci.org/PartTimeLegend/freecoins) [![Dependency Status](https://gemnasium.com/PartTimeLegend/freecoins.png)](https://gemnasium.com/PartTimeLegend/freecoins) [![Coverage Status](https://coveralls.io/repos/PartTimeLegend/freecoins/badge.png?branch=master)](https://coveralls.io/r/PartTimeLegend/freecoins)
 
+![Codeship](https://www.codeship.io/projects/89162ee0-61e4-0131-e84a-72a9c118fe1f/status)
+
 [![Flattr this git repo](http://api.flattr.com/button/flattr-badge-large.png)](https://flattr.com/submit/auto?user_id=parttimelegend&url=https://github.com/PartTimeLegend/freecoins&title=Legendary Faucet Source&language=&tags=github&category=software) 
