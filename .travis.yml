@@ -3,6 +3,7 @@ rvm:
   - 1.9.3
   - 2.0.0-p0
   - 2.0.0-p247
+  - 2.1.0
 notifications:
   irc: "irc.freenode.org#parttimelegend"
 script: bundle install
