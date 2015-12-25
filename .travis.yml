@@ -1,13 +1,6 @@
 sudo: false
 language: ruby
 rvm:
-  - 1.9.3
-  - 1.9.3-p547 
-  - 1.9.2-p330
-  - 2.0.0-p0
-  - 2.0.0-p247
-  - 2.1.0
-  - 2.1.2
   - 2.2.4
 notifications:
   irc: "irc.freenode.org#parttimelegend"
