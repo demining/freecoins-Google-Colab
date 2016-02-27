@@ -1,6 +1,7 @@
 sudo: false
 language: ruby
 rvm:
+  - 3.3.0
   - 2.2.4
 notifications:
   irc: "irc.freenode.org#parttimelegend"
