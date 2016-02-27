@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-gem 'sinatra', '1.4.6'
+gem 'sinatra', '1.4.7'
 gem 'haml', '4.0.7'
 gem 'maruku', '0.7.2'
 gem 'datamapper', '1.2.0'
