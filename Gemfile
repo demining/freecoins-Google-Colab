@@ -1,8 +1,8 @@
 source 'https://rubygems.org'
 
-gem 'sinatra', '1.4.7'
+gem 'sinatra', '1.4.8'
 gem 'haml', '4.0.7'
-gem 'maruku', '0.7.2'
+gem 'maruku', '0.7.3'
 gem 'datamapper', '1.2.0'
 gem 'time_diff', '0.3.0'
 gem 'dm-mysql-adapter', '1.2.0'
