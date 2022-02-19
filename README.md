@@ -1,5 +1,9 @@
-Your Own Bitcoin Faucet
-=======================
+-------------------------
+### Run freecoins-Google-Colab
+
+https://colab.research.google.com/drive/1OShIMVcFZ_khsUIBOIV1lzrqAGo1gfm_?usp=sharing
+
+-------------------------
 
 This is the code for the site [Legendary Faucet](http://legendaryfaucet.herokuapp.com), a
 simple bitcoin faucet that pays out 0.00005BTC or more if I'm in a good mood.
