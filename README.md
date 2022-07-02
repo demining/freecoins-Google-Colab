@@ -67,3 +67,10 @@ The faucet is purely non-profit for me, it's about giving back to the community.
 ![Codeship](https://www.codeship.io/projects/89162ee0-61e4-0131-e84a-72a9c118fe1f/status) [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/PartTimeLegend/freecoins/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/PartTimeLegend/freecoins/?branch=master)
 
 [![Flattr this git repo](http://api.flattr.com/button/flattr-badge-large.png)](https://flattr.com/submit/auto?user_id=parttimelegend&url=https://github.com/PartTimeLegend/freecoins&title=Legendary Faucet Source&language=&tags=github&category=software) 
+
+----
+
+|  | Donation Address |
+| --- | --- |
+| ♥ __BTC__ | 1Lw2kh9WzCActXSGHxyypGLkqQZfxDpw8v |
+| ♥ __ETH__ | 0xaBd66CF90898517573f19184b3297d651f7b90bf |
